@@ -1,0 +1,90 @@
+* {
+	margin: 5px;
+	padding: 5px;
+	font-family: 'Aharoni';
+}
+
+body {
+	background-color: #2F4F4F;
+}
+
+.calculator {
+	display: center;
+}
+
+.main {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	width: fixed;
+	background: rgb(112, 128, 145);
+	padding: 30px;
+	border-radius: 0px;
+	box-shadow: 2 5 25px;
+}
+.main h2 {
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+}
+
+.button {
+	width: 60px;
+	height: 60px;
+	font-size: 30px;
+	margin: 3px;
+	cursor:main;
+	border: none;
+	background: #2F4F4F;
+	color: white;
+	border-radius: 30px;
+}
+.main {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	width: fixed;
+	background: rgb(47, 79, 79);
+	padding: 25px;
+	border-radius: 2px;
+	box-shadow: 0 0 10px;
+}
+.main h2 {
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+}
+
+.button {
+	width: 50px;
+	height: 50px;
+	font-size: 25px;
+	margin: 2px;
+	cursor: pointer;
+	border: none;
+	background: #607d8b;
+	color: white;
+	border-radius: 25px;
+	
+}
+
+.btn1 {
+	background:	#B0C4DE;
+	color:#607d8b;
+}
+.btn2 {
+	width: 100%;
+	background:	#B0C4DE;
+	color:#607d8b;
+}
+
+.textarea {
+	width: 230px;
+	margin: 6px;
+	font-size: 20px;
+	padding: 10px;
+	border: none;
+	color: 	#2F4F4F;
+	border-radius: 25px;
